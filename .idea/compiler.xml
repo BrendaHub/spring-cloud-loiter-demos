@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-loiter-demos" />
+        <module name="spring-cloud-nacos-consumer" />
+        <module name="spring-cloud-nacos-provider" />
+        <module name="spring-session-redis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-nacos-consumer" target="1.8" />
+      <module name="spring-cloud-nacos-provider" target="1.8" />
+      <module name="spring-loiter-demos" target="1.8" />
+      <module name="spring-session-redis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-nacos-consumer" options="-parameters" />
+      <module name="spring-cloud-nacos-provider" options="-parameters" />
+      <module name="spring-loiter-demos" options="-parameters" />
+      <module name="spring-session-redis" options="-parameters" />
+    </option>
+  </component>
+</project>

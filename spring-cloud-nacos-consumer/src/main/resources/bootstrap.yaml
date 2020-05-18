@@ -1,0 +1,9 @@
+# nacos配置中心配置建议在bootstrap.properties中配置
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 39.108.126.173:8848
+        namespace: 3e97f676-4e29-4e69-b91e-3e5cc371d271
+        name: consumer
+        file-extension: yml
