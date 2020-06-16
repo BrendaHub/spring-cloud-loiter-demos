@@ -47,7 +47,6 @@ public class RedissonUtils {
 
         try {
             isLock = lock.tryLock(500, 30000, TimeUnit.MILLISECONDS);
-            lock.tr
             if (isLock) {
                 // TODO 成功获取到锁， 执行业务逻辑
                 System.out.println("获取业务锁， 执行相应的业务逻辑");
