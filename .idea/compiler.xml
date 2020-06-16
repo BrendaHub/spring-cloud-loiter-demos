@@ -2,29 +2,50 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-loiter-demos" />
+        <module name="spring-boot-admin-client" />
+        <module name="spring-boot-actuator" />
         <module name="spring-cloud-nacos-consumer" />
+        <module name="spring-boot-webstocket" />
+        <module name="wx-java-spring-boot" />
+        <module name="java-lock-demo" />
+        <module name="redis-distributed-lock" />
         <module name="spring-cloud-nacos-provider" />
+        <module name="spring-boot-admin-server" />
         <module name="spring-session-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java-lock-demo" target="1.8" />
+      <module name="redis-distributed-lock" target="1.8" />
+      <module name="spring-boot-actuator" target="1.8" />
+      <module name="spring-boot-admin-client" target="1.8" />
+      <module name="spring-boot-admin-server" target="1.8" />
+      <module name="spring-boot-webstocket" target="1.8" />
       <module name="spring-cloud-nacos-consumer" target="1.8" />
       <module name="spring-cloud-nacos-provider" target="1.8" />
       <module name="spring-loiter-demos" target="1.8" />
       <module name="spring-session-redis" target="1.8" />
+      <module name="wx-java-spring-boot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-lock-demo" options="-parameters" />
+      <module name="redis-distributed-lock" options="-parameters" />
+      <module name="spring-boot-actuator" options="-parameters" />
+      <module name="spring-boot-admin-client" options="-parameters" />
+      <module name="spring-boot-admin-server" options="-parameters" />
+      <module name="spring-boot-webstocket" options="-parameters" />
       <module name="spring-cloud-nacos-consumer" options="-parameters" />
       <module name="spring-cloud-nacos-provider" options="-parameters" />
       <module name="spring-loiter-demos" options="-parameters" />
       <module name="spring-session-redis" options="-parameters" />
+      <module name="wx-java-spring-boot" options="-parameters" />
     </option>
   </component>
 </project>

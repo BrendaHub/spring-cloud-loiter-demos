@@ -5,7 +5,13 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-webstocket/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-boot-admin-client/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager">

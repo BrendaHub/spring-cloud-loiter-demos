@@ -1,0 +1,64 @@
+logging:
+  level:
+    org.springframework.web: INFO
+    com.wx: DEBUG
+    me.chanjar.weixin: DEBUG
+wx:
+  mp:
+    configs:
+      - appId: wx5025fd6a8c099101
+        secret: 65c7eff1a66988fce77f1690d63a76f6
+        token: my_weixin_token_cicmorgan_key
+        aesKey:    #（接口配置里的EncodingAESKey值）
+#      - appId: 2222 （另一个公众号的appid，以下同上）
+#        secret: 1111
+#        token: 111
+#        aesKey: 111
+# 以下是关于spring acturator 配置
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8090
+# 配置redis begin
+  redis:
+    database: 0
+    host: 192.168.1.204
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-idle: 20
+        max-wait: 1000
+        max-active: 100
+        min-idle: 5
+    timeout: 1000
+  session:
+    store-type: none
+# config redis end
+management:
+  endpoints:
+    web:
+      #      base-path: /minitor
+      exposure:
+        include: "*" ### 注意这里要有引号
+  #        exclude:
+  endpoint:
+    health:
+      show-details: always # never  # when_authorized
+    info:
+      enabled: true
+    shutdown:
+      enabled: true # 实现优雅关闭spring boot服务
+  health:
+    mongo:
+      enabled: false  #  配置mongo 组件关闭actuator健康监控
+    defaults:
+      enabled: true # 禁用所有自动配置的健康指示器
+info:
+  app:
+    name: actuator-test-demo
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@  # 这个写法是如果是maven项目，引用maven里的变量
+      target: @java.version@

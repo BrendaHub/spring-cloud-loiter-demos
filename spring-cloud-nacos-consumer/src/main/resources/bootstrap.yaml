@@ -7,3 +7,15 @@ spring:
         namespace: 3e97f676-4e29-4e69-b91e-3e5cc371d271
         name: consumer
         file-extension: yml
+  boot:
+    admin:
+      client:
+        url: http://localhost:8090
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-lock-demo/java-lock-demo.iml" filepath="$PROJECT_DIR$/java-lock-demo/java-lock-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-distributed-lock/redis-distributed-lock.iml" filepath="$PROJECT_DIR$/redis-distributed-lock/redis-distributed-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-webstocket/spring-boot-webstocket.iml" filepath="$PROJECT_DIR$/spring-boot-webstocket/spring-boot-webstocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-consumer/spring-cloud-nacos-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-consumer/spring-cloud-nacos-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-provider/spring-cloud-nacos-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-provider/spring-cloud-nacos-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-loiter-demos.iml" filepath="$PROJECT_DIR$/spring-loiter-demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-session-redis/spring-session-redis.iml" filepath="$PROJECT_DIR$/spring-session-redis/spring-session-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-java-spring-boot/wx-java-spring-boot.iml" filepath="$PROJECT_DIR$/wx-java-spring-boot/wx-java-spring-boot.iml" />
     </modules>
   </component>
 </project>

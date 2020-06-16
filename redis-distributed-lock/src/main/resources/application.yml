@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: redis-distribuet-lock
+redis:
+  config:
+    host: 192.168.1.204
+    port: 6379
+    password:
+    max_idle: 30
+    max_wait: 15000  # timeunit millisecond
+    timeout: 30000
+    retry_num: 5

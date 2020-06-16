@@ -1,0 +1,28 @@
+研究spring boot actuator功能工程
+
+-  在配置management:
+        endpoints:
+          web:
+            exposure:
+              include: "*" ### 注意这里要有引号
+
+5.2 /metrics端点
+/metrics端点用来返回当前应用的各类重要度量指标，比如：内存信息、线程信息、垃圾回收信息、tomcat、数据库连接池等。
+http://localhost:8080/actuator/metrics/{MetricName}
+比如我访问/actuator/metrics/jvm.memory.max
+你也可以用query param的方式查看单独的一块区域。比如你可以访问/actuator/metrics/jvm.memory.max?tag=id:Metaspace
+5.3 /loggers端点我最想提的就是这个功能，能够动态修改你的日志等级。
+    比如，我们可以通过下述方式来修改 root logger的日志等级。我们只需要发起一个URL 为http://localhost:8080/actuator/loggers/root的POST请求，POST报文如下：
+    {
+       "configuredLevel": "DEBUG"
+    }
+如果在生产环境中，你想要你的应用输出一些Debug信息以便于你诊断一些异常情况，你你只需要按照上述方式就可以修改，而不需要重启应用。
+如果想重置成默认值，把value 改成 null
+5.4优雅关闭springboot服务
+http://localhost:10001/minitor/shutdown
+post
+{
+    "message": "Shutting down, bye..."
+}
+即可
+六、整合Spring Security 对端点进行安全校验

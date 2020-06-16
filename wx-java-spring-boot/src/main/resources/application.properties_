@@ -1,0 +1,19 @@
+
+# 公众号配置(必填)
+wx.mp.appId = wx5025fd6a8c099101
+wx.mp.secret = 65c7eff1a66988fce77f1690d63a76f6
+wx.mp.token = @token
+wx.mp.aesKey = @aesKey
+# 存储配置redis(可选)  配置类型: memory(默认), redis, jedis, redistemplate
+wx.mp.config-storage.type = redistemplate 
+wx.mp.config-storage.key-prefix = wx                  # 相关redis前缀配置: wx(默认)
+wx.mp.config-storage.redis.host = 47.96.249.81
+wx.mp.config-storage.redis.port = 6379
+# http客户端配置      # http客户端类型: httpclient(默认), okhttp, joddhttp
+wx.mp.config-storage.http-client-type = okhttp 
+wx.mp.config-storage.http-proxy-host =
+wx.mp.config-storage.http-proxy-port =
+wx.mp.config-storage.http-proxy-username =
+wx.mp.config-storage.http-proxy-password =
+
+
