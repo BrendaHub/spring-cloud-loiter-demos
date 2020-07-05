@@ -2,6 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33349daf-b400-4863-91c0-49f167cb18e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_android.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/java/com/lambda/JavaLambdaDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/java/com/lambda/beans/BeanInfoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/java/com/lambda/beans/Persion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/java/com/lambda/beans/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/test/java/com/lambda/JavaLambdaDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/test/java/com/lambda/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/test/java/com/lambda/TestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/alinode/day001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/list/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/unsafe/UnSafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-demo/netty-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-lock-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-lock-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-distributed-lock/src/main/java/com/redis/distributed/lock/utils/RedissonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-distributed-lock/src/main/java/com/redis/distributed/lock/utils/RedissonUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,9 +146,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -118,7 +163,33 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisDistributedLockApplicationTests.contextLoads">
+  <component name="RunManager" selected="Application.day001">
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lock.list.ArrayListDemo" />
+      <module name="java-lock-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lock.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanInfoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lambda.beans.BeanInfoDemo" />
+      <module name="java-lambda-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lambda.beans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeguanLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lock.LeguanLock" />
       <module name="java-lock-demo" />
@@ -132,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedissonUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.redis.distributed.lock.utils.RedissonUtils" />
-      <module name="redis-distributed-lock" />
+    <configuration name="UnSafeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lock.unsafe.UnSafeDemo" />
+      <module name="java-lock-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.redis.distributed.lock.utils.*" />
+          <option name="PATTERN" value="com.lock.unsafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,34 +216,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisDistributedLockApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-distributed-lock" />
+    <configuration name="day001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lock.alinode.day001" />
+      <module name="java-lock-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.redis.distributed.lock.*" />
+          <option name="PATTERN" value="com.lock.alinode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.redis.distributed.lock" />
-      <option name="MAIN_CLASS_NAME" value="com.redis.distributed.lock.RedisDistributedLockApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wx-java-spring-boot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wx" />
-      <option name="MAIN_CLASS_NAME" value="com.wx.RedisTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="JavaLambdaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java-lambda-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lambda.JavaLambdaDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -250,8 +309,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BeanInfoDemo" />
       <item itemvalue="Application.LeguanLock" />
-      <item itemvalue="JUnit.RedisTest.test" />
+      <item itemvalue="Application.UnSafeDemo" />
       <item itemvalue="Spring Boot.SpringCloudNacosConsumerApplication" />
       <item itemvalue="Spring Boot.SpringCloudNacosProviderApplication" />
       <item itemvalue="Spring Boot.SpringSessionRedisApplication" />
@@ -262,15 +322,17 @@
       <item itemvalue="Spring Boot.SpringBootWebstocketApplication" />
       <item itemvalue="Spring Boot.JavaLockDemoApplication" />
       <item itemvalue="Spring Boot.RedisDistributedLockApplication" />
-      <item itemvalue="JUnit.RedisDistributedLockApplicationTests.contextLoads" />
-      <item itemvalue="Application.RedissonUtils" />
+      <item itemvalue="Spring Boot.JavaLambdaDemoApplication" />
+      <item itemvalue="Application.ArrayListDemo" />
+      <item itemvalue="Application.day001" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedisDistributedLockApplicationTests.contextLoads" />
-        <item itemvalue="Application.RedissonUtils" />
+        <item itemvalue="Application.day001" />
+        <item itemvalue="Application.ArrayListDemo" />
+        <item itemvalue="Application.UnSafeDemo" />
         <item itemvalue="Application.LeguanLock" />
-        <item itemvalue="JUnit.RedisTest.test" />
+        <item itemvalue="Application.BeanInfoDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -284,11 +346,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -316,7 +373,12 @@
       <workItem from="1590576585440" duration="14780000" />
       <workItem from="1591200622028" duration="1500000" />
       <workItem from="1591768994652" duration="6509000" />
-      <workItem from="1592285893961" duration="15827000" />
+      <workItem from="1592285893961" duration="16638000" />
+      <workItem from="1592365283181" duration="19847000" />
+      <workItem from="1593577388742" duration="631000" />
+      <workItem from="1593582105464" duration="183000" />
+      <workItem from="1593934024761" duration="1550000" />
+      <workItem from="1593939139763" duration="6010000" />
     </task>
     <servers />
   </component>
@@ -343,30 +405,30 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="704" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1591201487536" />
-    <state x="625" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1591201256090">
+    <state x="625" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1592666666518">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="625" y="246" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1591201256090" />
+    <state x="625" y="246" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1592666666518" />
     <state x="677" y="437" width="325" height="264" key="Github.ShareDialog" timestamp="1589801602030">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="677" y="437" width="325" height="264" key="Github.ShareDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589801602030" />
-    <state width="1638" height="331" key="GridCell.Tab.0.bottom" timestamp="1592304927568">
+    <state width="1638" height="237" key="GridCell.Tab.0.bottom" timestamp="1593952902223">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="331" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1592304927568" />
-    <state width="1638" height="331" key="GridCell.Tab.0.center" timestamp="1592304927568">
+    <state width="1638" height="237" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1593952902223" />
+    <state width="1638" height="237" key="GridCell.Tab.0.center" timestamp="1593952902222">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="331" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1592304927568" />
-    <state width="1638" height="331" key="GridCell.Tab.0.left" timestamp="1592304927567">
+    <state width="1638" height="237" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1593952902222" />
+    <state width="1638" height="237" key="GridCell.Tab.0.left" timestamp="1593952902220">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="331" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1592304927567" />
-    <state width="1638" height="331" key="GridCell.Tab.0.right" timestamp="1592304927568">
+    <state width="1638" height="237" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1593952902220" />
+    <state width="1638" height="237" key="GridCell.Tab.0.right" timestamp="1593952902223">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="331" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1592304927568" />
+    <state width="1638" height="237" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593952902223" />
     <state width="1195" height="361" key="GridCell.Tab.1.bottom" timestamp="1592302641567">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -391,30 +453,30 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="350" y="197" key="Maven.ArtifactSearchDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589794591461" />
-    <state x="671" y="33" key="SettingsEditor" timestamp="1589860119291">
+    <state x="656" y="33" key="SettingsEditor" timestamp="1593582152777">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="671" y="33" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1589860119291" />
-    <state x="536" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1592285893395">
+    <state x="656" y="33" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593582152777" />
+    <state x="536" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1593934048410">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="536" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1592285893395" />
+    <state x="536" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593934048410" />
     <state x="602" y="282" width="856" height="572" key="find.popup" timestamp="1590658550730">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="602" y="282" width="856" height="572" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1590658550730" />
-    <state x="283" y="273" key="new project wizard" timestamp="1592286950193">
+    <state x="283" y="266" key="new project wizard" timestamp="1593943064770">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="283" y="273" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1592286950193" />
-    <state x="617" y="254" key="run.anything.popup" timestamp="1590650269499">
+    <state x="283" y="266" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1593943064770" />
+    <state x="617" y="254" key="run.anything.popup" timestamp="1593582076072">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="617" y="254" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1590650269499" />
-    <state x="1013" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1592292792958">
+    <state x="617" y="254" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593582076072" />
+    <state x="621" y="180" width="670" height="676" key="search.everywhere.popup" timestamp="1593943346927">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="1013" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1592292792958" />
+    <state x="621" y="180" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593943346927" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

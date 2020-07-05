@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-lambda-demo/java-lambda-demo.iml" filepath="$PROJECT_DIR$/java-lambda-demo/java-lambda-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-lock-demo/java-lock-demo.iml" filepath="$PROJECT_DIR$/java-lock-demo/java-lock-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/netty-demo/netty-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-distributed-lock/redis-distributed-lock.iml" filepath="$PROJECT_DIR$/redis-distributed-lock/redis-distributed-lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" />

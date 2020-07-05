@@ -11,6 +11,7 @@
         <module name="spring-boot-actuator" />
         <module name="spring-cloud-nacos-consumer" />
         <module name="spring-boot-webstocket" />
+        <module name="java-lambda-demo" />
         <module name="wx-java-spring-boot" />
         <module name="java-lock-demo" />
         <module name="redis-distributed-lock" />
@@ -20,7 +21,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java-lambda-demo" target="1.8" />
       <module name="java-lock-demo" target="1.8" />
+      <module name="netty-demo" target="1.8" />
       <module name="redis-distributed-lock" target="1.8" />
       <module name="spring-boot-actuator" target="1.8" />
       <module name="spring-boot-admin-client" target="1.8" />
@@ -35,7 +38,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-lambda-demo" options="-parameters" />
       <module name="java-lock-demo" options="-parameters" />
+      <module name="netty-demo" options="-parameters" />
       <module name="redis-distributed-lock" options="-parameters" />
       <module name="spring-boot-actuator" options="-parameters" />
       <module name="spring-boot-admin-client" options="-parameters" />

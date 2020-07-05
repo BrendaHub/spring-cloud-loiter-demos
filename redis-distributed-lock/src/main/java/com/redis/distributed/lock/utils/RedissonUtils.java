@@ -55,6 +55,7 @@ public class RedissonUtils {
             }
         } catch (InterruptedException ex) {
             ex.printStackTrace();
+
         } finally {
             // 解锁操作
             lock.unlock();
