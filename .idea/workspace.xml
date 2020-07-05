@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33349daf-b400-4863-91c0-49f167cb18e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/java/com/lambda/JavaLambdaDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/java/com/lambda/beans/BeanInfoDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/java/com/lambda/beans/Persion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/java/com/lambda/beans/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/test/java/com/lambda/JavaLambdaDemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/test/java/com/lambda/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lambda-demo/src/test/java/com/lambda/TestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/alinode/day001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/list/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/unsafe/UnSafeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-demo/netty-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-lock-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-lock-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-distributed-lock/src/main/java/com/redis/distributed/lock/utils/RedissonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-distributed-lock/src/main/java/com/redis/distributed/lock/utils/RedissonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/alinode/day001.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/alinode/day001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +102,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -378,7 +334,7 @@
       <workItem from="1593577388742" duration="631000" />
       <workItem from="1593582105464" duration="183000" />
       <workItem from="1593934024761" duration="1550000" />
-      <workItem from="1593939139763" duration="6010000" />
+      <workItem from="1593939139763" duration="11634000" />
     </task>
     <servers />
   </component>
@@ -413,22 +369,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="677" y="437" width="325" height="264" key="Github.ShareDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589801602030" />
-    <state width="1638" height="237" key="GridCell.Tab.0.bottom" timestamp="1593952902223">
+    <state width="1376" height="237" key="GridCell.Tab.0.bottom" timestamp="1593964378700">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="237" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1593952902223" />
-    <state width="1638" height="237" key="GridCell.Tab.0.center" timestamp="1593952902222">
+    <state width="1376" height="237" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1593964378700" />
+    <state width="1376" height="237" key="GridCell.Tab.0.center" timestamp="1593964378699">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="237" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1593952902222" />
-    <state width="1638" height="237" key="GridCell.Tab.0.left" timestamp="1593952902220">
+    <state width="1376" height="237" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1593964378699" />
+    <state width="1376" height="237" key="GridCell.Tab.0.left" timestamp="1593964378698">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="237" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1593952902220" />
-    <state width="1638" height="237" key="GridCell.Tab.0.right" timestamp="1593952902223">
+    <state width="1376" height="237" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1593964378698" />
+    <state width="1376" height="237" key="GridCell.Tab.0.right" timestamp="1593964378699">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="237" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593952902223" />
+    <state width="1376" height="237" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593964378699" />
     <state width="1195" height="361" key="GridCell.Tab.1.bottom" timestamp="1592302641567">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -453,10 +409,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="350" y="197" key="Maven.ArtifactSearchDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589794591461" />
-    <state x="656" y="33" key="SettingsEditor" timestamp="1593582152777">
+    <state x="656" y="33" key="SettingsEditor" timestamp="1593960210193">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="656" y="33" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593582152777" />
+    <state x="656" y="33" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593960210193" />
     <state x="536" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1593934048410">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -473,10 +429,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="617" y="254" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593582076072" />
-    <state x="621" y="180" width="670" height="676" key="search.everywhere.popup" timestamp="1593943346927">
+    <state x="621" y="180" width="670" height="676" key="search.everywhere.popup" timestamp="1593963168490">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="621" y="180" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593943346927" />
+    <state x="621" y="180" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593963168490" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
