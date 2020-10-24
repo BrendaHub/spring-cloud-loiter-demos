@@ -72,20 +72,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1bl6nDj3iptP2kTYQapYjp4aIlz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -100,6 +92,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
@@ -268,6 +261,8 @@
       <item itemvalue="Application.BeanInfoDemo" />
       <item itemvalue="Application.LeguanLock" />
       <item itemvalue="Application.UnSafeDemo" />
+      <item itemvalue="Application.ArrayListDemo" />
+      <item itemvalue="Application.day001" />
       <item itemvalue="Spring Boot.SpringCloudNacosConsumerApplication" />
       <item itemvalue="Spring Boot.SpringCloudNacosProviderApplication" />
       <item itemvalue="Spring Boot.SpringSessionRedisApplication" />
@@ -279,8 +274,6 @@
       <item itemvalue="Spring Boot.JavaLockDemoApplication" />
       <item itemvalue="Spring Boot.RedisDistributedLockApplication" />
       <item itemvalue="Spring Boot.JavaLambdaDemoApplication" />
-      <item itemvalue="Application.ArrayListDemo" />
-      <item itemvalue="Application.day001" />
     </list>
     <recent_temporary>
       <list>
@@ -291,24 +284,6 @@
         <item itemvalue="Application.BeanInfoDemo" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.25674093" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SpringBootOptions">
     <option name="showAdditionalConfigNotification" value="false" />
@@ -340,6 +315,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
