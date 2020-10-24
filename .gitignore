@@ -1,0 +1,37 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+workspace.xml
+*.iws
+*.iml
+*.ipr
+*.log
+git
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+catlogs**
+
+job-logs/
+logs/
+log/
+dependency-reduced-pom.xml
+disconf/
+
+*/target
+*.iml
+*/src/test/*
