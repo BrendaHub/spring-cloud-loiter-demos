@@ -11,6 +11,10 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
+<<<<<<< HEAD
+=======
+workspace.xml
+>>>>>>> feature-alidevelopnotepad-0.0.1
 *.iws
 *.iml
 *.ipr

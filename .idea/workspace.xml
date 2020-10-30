@@ -41,7 +41,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33349daf-b400-4863-91c0-49f167cb18e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/redis-distributed-lock/src/main/java/com/redis/distributed/lock/utils/RedissonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-distributed-lock/src/main/java/com/redis/distributed/lock/utils/RedissonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/alinode/day001.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-lock-demo/src/main/java/com/lock/alinode/day001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,17 +134,39 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apollo-open/src/test/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+>>>>>>> feature-alidevelopnotepad-0.0.1
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MavenProject\spring-cloud-loiter-demos\apollo-open\src\test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MavenProject\spring-cloud-loiter-demos\apollo-open\src\test\resources" />
       <recent name="$PROJECT_DIR$/spring-cloud-nacos-consumer/src/main/resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.loiter.apollo.apolloopen.service.impl" />
+      <recent name="com.jdbc.springbootjdbc.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -153,13 +176,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisDistributedLockApplicationTests.contextLoads">
-    <configuration name="LeguanLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lock.LeguanLock" />
-      <module name="java-lock-demo" />
+  <component name="RunManager" selected="Application.BuilderObject">
+    <configuration name="BuilderObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loiter.builder.builderdemo.BuilderObject" />
+      <module name="builder-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lock.*" />
+          <option name="PATTERN" value="com.loiter.builder.builderdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedissonUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.redis.distributed.lock.utils.RedissonUtils" />
-      <module name="redis-distributed-lock" />
+    <configuration name="GuavaUtilDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loiter.guava.guavademo.tool.GuavaUtilDemo" />
+      <module name="guava-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.redis.distributed.lock.utils.*" />
+          <option name="PATTERN" value="com.loiter.guava.guavademo.tool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,34 +203,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisDistributedLockApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-distributed-lock" />
+    <configuration name="PredicateDesignDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loiter.functional.functionalcode.functionalinterface.PredicateDesignDemo" />
+      <module name="functional-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.redis.distributed.lock.*" />
+          <option name="PATTERN" value="com.loiter.functional.functionalcode.functionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.redis.distributed.lock" />
-      <option name="MAIN_CLASS_NAME" value="com.redis.distributed.lock.RedisDistributedLockApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wx-java-spring-boot" />
+    <configuration name="RetryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loiter.guava.guavademo.retryer.RetryDemo" />
+      <module name="guava-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wx.*" />
+          <option name="PATTERN" value="com.loiter.guava.guavademo.retryer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wx" />
-      <option name="MAIN_CLASS_NAME" value="com.wx.RedisTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplierDesignDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loiter.functional.functionalcode.functionalinterface.SupplierDesignDemo" />
+      <module name="functional-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loiter.functional.functionalcode.functionalinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApolloOpenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apollo-open" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loiter.apollo.apolloopen.ApolloOpenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoconfiguretiondemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="autoconfiguretiondemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loiter.autoconfig.autoconfiguretiondemo.AutoconfiguretiondemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuilderDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="builder-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loiter.builder.builderdemo.BuilderDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="functional-code" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loiter.functional.functionalcode.FunctionalCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuavaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="guava-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loiter.guava.guavademo.GuavaDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaLambdaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java-lambda-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lambda.JavaLambdaDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,6 +287,13 @@
     <configuration name="JavaLockDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="java-lock-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lock.JavaLockDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="parallel-code" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loiter.parallel.parallelcode.ParallelCodeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,6 +322,13 @@
     <configuration name="SpringBootAdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-admin-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.admin.SpringBootAdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-jdbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jdbc.springbootjdbc.SpringBootJdbcApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,10 +371,13 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.LeguanLock" />
       <item itemvalue="Application.RedissonUtils" />
       <item itemvalue="JUnit.RedisTest.test" />
       <item itemvalue="JUnit.RedisDistributedLockApplicationTests.contextLoads" />
+=======
+>>>>>>> feature-alidevelopnotepad-0.0.1
       <item itemvalue="Spring Boot.SpringCloudNacosConsumerApplication" />
       <item itemvalue="Spring Boot.SpringCloudNacosProviderApplication" />
       <item itemvalue="Spring Boot.SpringSessionRedisApplication" />
@@ -299,13 +388,30 @@
       <item itemvalue="Spring Boot.SpringBootWebstocketApplication" />
       <item itemvalue="Spring Boot.JavaLockDemoApplication" />
       <item itemvalue="Spring Boot.RedisDistributedLockApplication" />
+<<<<<<< HEAD
+=======
+      <item itemvalue="Spring Boot.JavaLambdaDemoApplication" />
+      <item itemvalue="Spring Boot.SpringBootJdbcApplication" />
+      <item itemvalue="Spring Boot.ApolloOpenApplication" />
+      <item itemvalue="Spring Boot.ParallelCodeApplication" />
+      <item itemvalue="Spring Boot.FunctionalCodeApplication" />
+      <item itemvalue="Application.SupplierDesignDemo" />
+      <item itemvalue="Spring Boot.GuavaDemoApplication" />
+      <item itemvalue="Application.GuavaUtilDemo" />
+      <item itemvalue="Application.RetryDemo" />
+      <item itemvalue="Application.PredicateDesignDemo" />
+      <item itemvalue="Spring Boot.AutoconfiguretiondemoApplication" />
+      <item itemvalue="Spring Boot.BuilderDemoApplication" />
+      <item itemvalue="Application.BuilderObject" />
+>>>>>>> feature-alidevelopnotepad-0.0.1
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedisDistributedLockApplicationTests.contextLoads" />
-        <item itemvalue="Application.RedissonUtils" />
-        <item itemvalue="Application.LeguanLock" />
-        <item itemvalue="JUnit.RedisTest.test" />
+        <item itemvalue="Application.BuilderObject" />
+        <item itemvalue="Application.PredicateDesignDemo" />
+        <item itemvalue="Application.RetryDemo" />
+        <item itemvalue="Application.GuavaUtilDemo" />
+        <item itemvalue="Application.SupplierDesignDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -331,10 +437,21 @@
       <workItem from="1590576585440" duration="14780000" />
       <workItem from="1591200622028" duration="1500000" />
       <workItem from="1591768994652" duration="6509000" />
+<<<<<<< HEAD
       <workItem from="1592285893961" duration="15827000" />
       <workItem from="1603293391860" duration="610000" />
       <workItem from="1603379573923" duration="622000" />
       <workItem from="1603506131895" duration="1348000" />
+=======
+      <workItem from="1592285893961" duration="16638000" />
+      <workItem from="1592365283181" duration="19847000" />
+      <workItem from="1593577388742" duration="631000" />
+      <workItem from="1593582105464" duration="183000" />
+      <workItem from="1593934024761" duration="1550000" />
+      <workItem from="1593939139763" duration="11634000" />
+      <workItem from="1603626790804" duration="615000" />
+      <workItem from="1603774247481" duration="49219000" />
+>>>>>>> feature-alidevelopnotepad-0.0.1
     </task>
     <servers />
   </component>
@@ -351,108 +468,176 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> feature-alidevelopnotepad-0.0.1
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="639" y="201" key="#Project_Structure" timestamp="1589194519413">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="694" y="159" key="#ThreadDemo" timestamp="1603851747984">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="639" y="201" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1589194519413" />
-    <state x="906" y="138" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1589857113533">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="694" y="159" key="#ThreadDemo/74.0.1846.1080@74.0.1846.1080" timestamp="1603851747984" />
+    <state x="802" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1604073200864">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="906" y="138" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589857113533" />
-    <state x="304" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591787349469">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="802" y="246" key="#com.intellij.ide.util.MemberChooser/74.0.1846.1080@74.0.1846.1080" timestamp="1604073200864" />
+    <state x="103" y="361" width="691" height="594" key="#xdebugger.evaluate" timestamp="1603805455305">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="304" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1591787349469" />
-    <state x="704" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591201487536">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="295" y="643" width="691" height="594" key="#xdebugger.evaluate/0.0.1080.1858@0.0.1080.1858" timestamp="1603544372023" />
+    <state x="103" y="361" key="#xdebugger.evaluate/74.0.1846.1080@74.0.1846.1080" timestamp="1603805455305" />
+    <state width="445" height="466" key="DebuggerActiveHint" timestamp="1603551725275">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="704" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1591201487536" />
-    <state x="625" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1591201256090">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="445" height="466" key="DebuggerActiveHint/74.0.1846.1080@74.0.1846.1080" timestamp="1603551725275" />
+    <state x="777" y="295" key="FileChooserDialogImpl" timestamp="1603776649707">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="625" y="246" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1591201256090" />
-    <state x="677" y="437" width="325" height="264" key="Github.ShareDialog" timestamp="1589801602030">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="777" y="295" key="FileChooserDialogImpl/74.0.1846.1080@74.0.1846.1080" timestamp="1603776649707" />
+    <state width="1803" height="371" key="GridCell.Tab.0.bottom" timestamp="1604073220613">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="677" y="437" width="325" height="264" key="Github.ShareDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589801602030" />
-    <state width="1638" height="331" key="GridCell.Tab.0.bottom" timestamp="1592304927568">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.0.bottom/0.0.1080.1858@0.0.1080.1858" timestamp="1603544339864" />
+    <state width="693" height="707" key="GridCell.Tab.0.bottom/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
+    <state width="1803" height="371" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1604073220613" />
+    <state width="1803" height="371" key="GridCell.Tab.0.center" timestamp="1604073220613">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state width="1638" height="331" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1592304927568" />
-    <state width="1638" height="331" key="GridCell.Tab.0.center" timestamp="1592304927568">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.0.center/0.0.1080.1858@0.0.1080.1858" timestamp="1603544339864" />
+    <state width="693" height="707" key="GridCell.Tab.0.center/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
+    <state width="1803" height="371" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1604073220613" />
+    <state width="1803" height="371" key="GridCell.Tab.0.left" timestamp="1604073220613">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state width="1638" height="331" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1592304927568" />
-    <state width="1638" height="331" key="GridCell.Tab.0.left" timestamp="1592304927567">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.0.left/0.0.1080.1858@0.0.1080.1858" timestamp="1603544339864" />
+    <state width="693" height="707" key="GridCell.Tab.0.left/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
+    <state width="1803" height="371" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1604073220613" />
+    <state width="1803" height="371" key="GridCell.Tab.0.right" timestamp="1604073220613">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state width="1638" height="331" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1592304927567" />
-    <state width="1638" height="331" key="GridCell.Tab.0.right" timestamp="1592304927568">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.0.right/0.0.1080.1858@0.0.1080.1858" timestamp="1603544339864" />
+    <state width="693" height="707" key="GridCell.Tab.0.right/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
+    <state width="1803" height="371" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1604073220613" />
+    <state width="1803" height="389" key="GridCell.Tab.1.bottom" timestamp="1604072610990">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state width="1638" height="331" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1592304927568" />
-    <state width="1195" height="361" key="GridCell.Tab.1.bottom" timestamp="1592302641567">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.1.bottom/0.0.1080.1858@0.0.1080.1858" timestamp="1603544329618" />
+    <state width="693" height="707" key="GridCell.Tab.1.bottom/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974131" />
+    <state width="1803" height="389" key="GridCell.Tab.1.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1604072610990" />
+    <state width="1803" height="389" key="GridCell.Tab.1.center" timestamp="1604072610990">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state width="1195" height="361" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1592302641567" />
-    <state width="1195" height="361" key="GridCell.Tab.1.center" timestamp="1592302641567">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.1.center/0.0.1080.1858@0.0.1080.1858" timestamp="1603544329618" />
+    <state width="693" height="707" key="GridCell.Tab.1.center/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
+    <state width="1803" height="389" key="GridCell.Tab.1.center/74.0.1846.1080@74.0.1846.1080" timestamp="1604072610990" />
+    <state width="1803" height="389" key="GridCell.Tab.1.left" timestamp="1604072610990">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state width="1195" height="361" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1592302641567" />
-    <state width="1195" height="361" key="GridCell.Tab.1.left" timestamp="1592302641566">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.1.left/0.0.1080.1858@0.0.1080.1858" timestamp="1603544329618" />
+    <state width="693" height="707" key="GridCell.Tab.1.left/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
+    <state width="1803" height="389" key="GridCell.Tab.1.left/74.0.1846.1080@74.0.1846.1080" timestamp="1604072610990" />
+    <state width="1803" height="389" key="GridCell.Tab.1.right" timestamp="1604072610990">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state width="1195" height="361" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1592302641566" />
-    <state width="1195" height="361" key="GridCell.Tab.1.right" timestamp="1592302641567">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.1.right/0.0.1080.1858@0.0.1080.1858" timestamp="1603544329618" />
+    <state width="693" height="707" key="GridCell.Tab.1.right/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
+    <state width="1803" height="389" key="GridCell.Tab.1.right/74.0.1846.1080@74.0.1846.1080" timestamp="1604072610990" />
+    <state width="1435" height="564" key="GridCell.Tab.2.bottom" timestamp="1603775979676">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state width="1195" height="361" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1592302641567" />
-    <state width="239" height="539" key="HiddenNamespacesPopup" timestamp="1591787375408">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.2.bottom/0.0.1080.1858@0.0.1080.1858" timestamp="1603544310435" />
+    <state width="693" height="707" key="GridCell.Tab.2.bottom/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974131" />
+    <state width="1435" height="564" key="GridCell.Tab.2.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1603775979676" />
+    <state width="1435" height="564" key="GridCell.Tab.2.center" timestamp="1603775979676">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state width="239" height="539" key="HiddenNamespacesPopup/0.23.1680.1027@0.23.1680.1027" timestamp="1591787375408" />
-    <state x="350" y="197" key="Maven.ArtifactSearchDialog" timestamp="1589794591461">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.2.center/0.0.1080.1858@0.0.1080.1858" timestamp="1603544310435" />
+    <state width="693" height="707" key="GridCell.Tab.2.center/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974131" />
+    <state width="1435" height="564" key="GridCell.Tab.2.center/74.0.1846.1080@74.0.1846.1080" timestamp="1603775979676" />
+    <state width="1435" height="564" key="GridCell.Tab.2.left" timestamp="1603775979676">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="350" y="197" key="Maven.ArtifactSearchDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589794591461" />
-    <state x="671" y="33" key="SettingsEditor" timestamp="1589860119291">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.2.left/0.0.1080.1858@0.0.1080.1858" timestamp="1603544310435" />
+    <state width="693" height="707" key="GridCell.Tab.2.left/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974131" />
+    <state width="1435" height="564" key="GridCell.Tab.2.left/74.0.1846.1080@74.0.1846.1080" timestamp="1603775979676" />
+    <state width="1435" height="564" key="GridCell.Tab.2.right" timestamp="1603775979676">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="671" y="33" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1589860119291" />
-    <state x="536" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1592285893395">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="748" height="707" key="GridCell.Tab.2.right/0.0.1080.1858@0.0.1080.1858" timestamp="1603544310435" />
+    <state width="693" height="707" key="GridCell.Tab.2.right/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974131" />
+    <state width="1435" height="564" key="GridCell.Tab.2.right/74.0.1846.1080@74.0.1846.1080" timestamp="1603775979676" />
+    <state x="477" y="114" key="SettingsEditor" timestamp="1603774509864">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="536" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1592285893395" />
-    <state x="602" y="282" width="856" height="572" key="find.popup" timestamp="1590658550730">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="477" y="114" key="SettingsEditor/74.0.1846.1080@74.0.1846.1080" timestamp="1603774509864" />
+    <state x="537" y="269" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603553551872">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="602" y="282" width="856" height="572" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1590658550730" />
-    <state x="283" y="273" key="new project wizard" timestamp="1592286950193">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="537" y="269" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/74.0.1846.1080@74.0.1846.1080" timestamp="1603553551872" />
+    <state x="609" y="171" width="965" height="592" key="find.popup" timestamp="1603941441384">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="283" y="273" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1592286950193" />
-    <state x="617" y="254" key="run.anything.popup" timestamp="1590650269499">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="609" y="171" width="965" height="592" key="find.popup/74.0.1846.1080@74.0.1846.1080" timestamp="1603941441384" />
+    <state x="262" y="122" width="1235" height="679" key="new project wizard" timestamp="1604072680462">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="617" y="254" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1590650269499" />
-    <state x="1013" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1592292792958">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="262" y="122" width="1235" height="679" key="new project wizard/74.0.1846.1080@74.0.1846.1080" timestamp="1604072680462" />
+    <state x="653" y="193" width="672" height="676" key="search.everywhere.popup" timestamp="1604032857239">
+      <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="1013" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1592292792958" />
+    <state x="653" y="193" width="672" height="676" key="search.everywhere.popup/74.0.1846.1080@74.0.1846.1080" timestamp="1604032857239" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java</url>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/spring-boot-jdbc/src/main/java/com/jdbc/springbootjdbc/service/impl/DemoServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/apollo-open/src/main/java/com/loiter/apollo/apolloopen/service/impl/ApolloServiceImpl.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/apollo-open/src/test/java/com/loiter/apollo/apolloopen/AppOpenApiServiceTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/functional-code/src/main/java/com/loiter/functional/functionalcode/functionalinterface/demo1/LambdaDemo1.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/functional-code/src/main/java/com/loiter/functional/functionalcode/functionalinterface/demo1/Start.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/functional-code/src/main/java/com/loiter/functional/functionalcode/functionalinterface/demo1/LambdaDemo1.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/guava-demo/src/main/java/com/loiter/guava/guavademo/tool/GuavaUtilDemo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/guava-demo/src/main/java/com/loiter/guava/guavademo/tool/GuavaUtilDemo.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="dart-exception" />
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
