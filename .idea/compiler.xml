@@ -7,27 +7,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-admin-client" />
-        <module name="spring-boot-actuator" />
+        <module name="parallel-code" />
         <module name="spring-cloud-nacos-consumer" />
-        <module name="spring-boot-webstocket" />
-        <module name="java-lambda-demo" />
-        <module name="wx-java-spring-boot" />
-        <module name="java-lock-demo" />
-        <module name="redis-distributed-lock" />
-        <module name="spring-cloud-nacos-provider" />
-        <module name="spring-boot-admin-server" />
+        <module name="functional-code" />
+        <module name="spring-boot-actuator" />
         <module name="spring-session-redis" />
+        <module name="spring-boot-webstocket" />
+        <module name="wx-java-spring-boot" />
+        <module name="guava-demo" />
+        <module name="spring-cloud-nacos-provider" />
+        <module name="spring-boot-admin-client" />
+        <module name="java-lock-demo" />
+        <module name="java-lambda-demo" />
+        <module name="spring-boot-jdbc" />
+        <module name="redis-distributed-lock" />
+        <module name="apollo-open" />
+        <module name="spring-boot-admin-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apollo-open" target="1.8" />
+      <module name="functional-code" target="1.8" />
+      <module name="guava-demo" target="1.8" />
       <module name="java-lambda-demo" target="1.8" />
       <module name="java-lock-demo" target="1.8" />
       <module name="netty-demo" target="1.8" />
+      <module name="parallel-code" target="1.8" />
       <module name="redis-distributed-lock" target="1.8" />
       <module name="spring-boot-actuator" target="1.8" />
       <module name="spring-boot-admin-client" target="1.8" />
       <module name="spring-boot-admin-server" target="1.8" />
+      <module name="spring-boot-jdbc" target="1.8" />
       <module name="spring-boot-webstocket" target="1.8" />
       <module name="spring-cloud-nacos-consumer" target="1.8" />
       <module name="spring-cloud-nacos-provider" target="1.8" />
@@ -38,13 +48,18 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apollo-open" options="-parameters" />
+      <module name="functional-code" options="-parameters" />
+      <module name="guava-demo" options="-parameters" />
       <module name="java-lambda-demo" options="-parameters" />
       <module name="java-lock-demo" options="-parameters" />
       <module name="netty-demo" options="-parameters" />
+      <module name="parallel-code" options="-parameters" />
       <module name="redis-distributed-lock" options="-parameters" />
       <module name="spring-boot-actuator" options="-parameters" />
       <module name="spring-boot-admin-client" options="-parameters" />
       <module name="spring-boot-admin-server" options="-parameters" />
+      <module name="spring-boot-jdbc" options="-parameters" />
       <module name="spring-boot-webstocket" options="-parameters" />
       <module name="spring-cloud-nacos-consumer" options="-parameters" />
       <module name="spring-cloud-nacos-provider" options="-parameters" />

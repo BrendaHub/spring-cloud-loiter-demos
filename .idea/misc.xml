@@ -6,6 +6,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-nacos-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-webstocket/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo-open/pom.xml" />
+        <option value="$PROJECT_DIR$/parallel-code/pom.xml" />
+        <option value="$PROJECT_DIR$/functional-code/pom.xml" />
+        <option value="$PROJECT_DIR$/guava-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
