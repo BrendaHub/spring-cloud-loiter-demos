@@ -12,11 +12,13 @@
         <module name="functional-code" />
         <module name="spring-boot-actuator" />
         <module name="spring-session-redis" />
+        <module name="autoconfiguretiondemo" />
         <module name="spring-boot-webstocket" />
         <module name="wx-java-spring-boot" />
         <module name="guava-demo" />
         <module name="spring-cloud-nacos-provider" />
         <module name="spring-boot-admin-client" />
+        <module name="builder-demo" />
         <module name="java-lock-demo" />
         <module name="java-lambda-demo" />
         <module name="spring-boot-jdbc" />
@@ -27,6 +29,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apollo-open" target="1.8" />
+      <module name="autoconfiguretiondemo" target="1.8" />
+      <module name="builder-demo" target="1.8" />
       <module name="functional-code" target="1.8" />
       <module name="guava-demo" target="1.8" />
       <module name="java-lambda-demo" target="1.8" />
@@ -49,6 +53,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apollo-open" options="-parameters" />
+      <module name="autoconfiguretiondemo" options="-parameters" />
+      <module name="builder-demo" options="-parameters" />
       <module name="functional-code" options="-parameters" />
       <module name="guava-demo" options="-parameters" />
       <module name="java-lambda-demo" options="-parameters" />

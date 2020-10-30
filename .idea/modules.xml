@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/apollo-open/apollo-open.iml" filepath="$PROJECT_DIR$/apollo-open/apollo-open.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoconfiguretiondemo/autoconfiguretiondemo.iml" filepath="$PROJECT_DIR$/autoconfiguretiondemo/autoconfiguretiondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/builder-demo/builder-demo.iml" filepath="$PROJECT_DIR$/builder-demo/builder-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/functional-code/functional-code.iml" filepath="$PROJECT_DIR$/functional-code/functional-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/guava-demo/guava-demo.iml" filepath="$PROJECT_DIR$/guava-demo/guava-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-lambda-demo/java-lambda-demo.iml" filepath="$PROJECT_DIR$/java-lambda-demo/java-lambda-demo.iml" />

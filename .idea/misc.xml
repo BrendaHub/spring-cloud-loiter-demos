@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/parallel-code/pom.xml" />
         <option value="$PROJECT_DIR$/functional-code/pom.xml" />
         <option value="$PROJECT_DIR$/guava-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/autoconfiguretiondemo/pom.xml" />
+        <option value="$PROJECT_DIR$/builder-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
