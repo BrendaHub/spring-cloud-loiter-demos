@@ -167,13 +167,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SupplierDesignDemo">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.loiter.functional.functionalcode.functionalinterface.ConsumerDemo" />
-      <module name="functional-code" />
+  <component name="RunManager" selected="Application.RetryDemo">
+    <configuration name="GuavaUtilDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loiter.guava.guavademo.tool.GuavaUtilDemo" />
+      <module name="guava-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.loiter.functional.functionalcode.functionalinterface.*" />
+          <option name="PATTERN" value="com.loiter.guava.guavademo.tool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.loiter.functional.functionalcode.functionalinterface.PredicateDemo" />
-      <module name="functional-code" />
+    <configuration name="RetryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loiter.guava.guavademo.retryer.RetryDemo" />
+      <module name="guava-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.loiter.functional.functionalcode.functionalinterface.*" />
+          <option name="PATTERN" value="com.loiter.guava.guavademo.retryer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,20 +366,20 @@
       <item itemvalue="Spring Boot.ApolloOpenApplication" />
       <item itemvalue="Spring Boot.ParallelCodeApplication" />
       <item itemvalue="Spring Boot.FunctionalCodeApplication" />
-      <item itemvalue="Application.ConsumerDemo" />
-      <item itemvalue="Application.PredicateDemo" />
       <item itemvalue="Application.LambdaDemo1" />
       <item itemvalue="JUnit.ApolloOpenApplicationTests.testUserDir" />
       <item itemvalue="Application.SupplierDesignDemo" />
       <item itemvalue="Spring Boot.GuavaDemoApplication" />
+      <item itemvalue="Application.GuavaUtilDemo" />
+      <item itemvalue="Application.RetryDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RetryDemo" />
+        <item itemvalue="Application.GuavaUtilDemo" />
         <item itemvalue="Application.SupplierDesignDemo" />
         <item itemvalue="Application.LambdaDemo1" />
         <item itemvalue="JUnit.ApolloOpenApplicationTests.testUserDir" />
-        <item itemvalue="Application.PredicateDemo" />
-        <item itemvalue="Application.ConsumerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +412,7 @@
       <workItem from="1593934024761" duration="1550000" />
       <workItem from="1593939139763" duration="11634000" />
       <workItem from="1603626790804" duration="615000" />
-      <workItem from="1603774247481" duration="42730000" />
+      <workItem from="1603774247481" duration="45246000" />
     </task>
     <servers />
   </component>
@@ -456,54 +456,54 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="777" y="295" key="FileChooserDialogImpl/74.0.1846.1080@74.0.1846.1080" timestamp="1603776649707" />
-    <state width="1803" height="285" key="GridCell.Tab.0.bottom" timestamp="1604025870987">
+    <state width="863" height="314" key="GridCell.Tab.0.bottom" timestamp="1604031168514">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state width="748" height="707" key="GridCell.Tab.0.bottom/0.0.1080.1858@0.0.1080.1858" timestamp="1603544339864" />
     <state width="693" height="707" key="GridCell.Tab.0.bottom/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
-    <state width="1803" height="285" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1604025870987" />
-    <state width="1803" height="285" key="GridCell.Tab.0.center" timestamp="1604025870987">
+    <state width="863" height="314" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1604031168514" />
+    <state width="863" height="314" key="GridCell.Tab.0.center" timestamp="1604031168513">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state width="748" height="707" key="GridCell.Tab.0.center/0.0.1080.1858@0.0.1080.1858" timestamp="1603544339864" />
     <state width="693" height="707" key="GridCell.Tab.0.center/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
-    <state width="1803" height="285" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1604025870987" />
-    <state width="1803" height="285" key="GridCell.Tab.0.left" timestamp="1604025870986">
+    <state width="863" height="314" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1604031168513" />
+    <state width="863" height="314" key="GridCell.Tab.0.left" timestamp="1604031168513">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state width="748" height="707" key="GridCell.Tab.0.left/0.0.1080.1858@0.0.1080.1858" timestamp="1603544339864" />
     <state width="693" height="707" key="GridCell.Tab.0.left/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
-    <state width="1803" height="285" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1604025870986" />
-    <state width="1803" height="285" key="GridCell.Tab.0.right" timestamp="1604025870987">
+    <state width="863" height="314" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1604031168513" />
+    <state width="863" height="314" key="GridCell.Tab.0.right" timestamp="1604031168513">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state width="748" height="707" key="GridCell.Tab.0.right/0.0.1080.1858@0.0.1080.1858" timestamp="1603544339864" />
     <state width="693" height="707" key="GridCell.Tab.0.right/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
-    <state width="1803" height="285" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1604025870987" />
-    <state width="1803" height="314" key="GridCell.Tab.1.bottom" timestamp="1603956359035">
+    <state width="863" height="314" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1604031168513" />
+    <state width="863" height="314" key="GridCell.Tab.1.bottom" timestamp="1604031168514">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state width="748" height="707" key="GridCell.Tab.1.bottom/0.0.1080.1858@0.0.1080.1858" timestamp="1603544329618" />
     <state width="693" height="707" key="GridCell.Tab.1.bottom/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974131" />
-    <state width="1803" height="314" key="GridCell.Tab.1.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1603956359035" />
-    <state width="1803" height="314" key="GridCell.Tab.1.center" timestamp="1603956359035">
+    <state width="863" height="314" key="GridCell.Tab.1.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1604031168514" />
+    <state width="863" height="314" key="GridCell.Tab.1.center" timestamp="1604031168514">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state width="748" height="707" key="GridCell.Tab.1.center/0.0.1080.1858@0.0.1080.1858" timestamp="1603544329618" />
     <state width="693" height="707" key="GridCell.Tab.1.center/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
-    <state width="1803" height="314" key="GridCell.Tab.1.center/74.0.1846.1080@74.0.1846.1080" timestamp="1603956359035" />
-    <state width="1803" height="314" key="GridCell.Tab.1.left" timestamp="1603956359035">
+    <state width="863" height="314" key="GridCell.Tab.1.center/74.0.1846.1080@74.0.1846.1080" timestamp="1604031168514" />
+    <state width="863" height="314" key="GridCell.Tab.1.left" timestamp="1604031168514">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state width="748" height="707" key="GridCell.Tab.1.left/0.0.1080.1858@0.0.1080.1858" timestamp="1603544329618" />
     <state width="693" height="707" key="GridCell.Tab.1.left/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
-    <state width="1803" height="314" key="GridCell.Tab.1.left/74.0.1846.1080@74.0.1846.1080" timestamp="1603956359035" />
-    <state width="1803" height="314" key="GridCell.Tab.1.right" timestamp="1603956359035">
+    <state width="863" height="314" key="GridCell.Tab.1.left/74.0.1846.1080@74.0.1846.1080" timestamp="1604031168514" />
+    <state width="863" height="314" key="GridCell.Tab.1.right" timestamp="1604031168514">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state width="748" height="707" key="GridCell.Tab.1.right/0.0.1080.1858@0.0.1080.1858" timestamp="1603544329618" />
     <state width="693" height="707" key="GridCell.Tab.1.right/74.0.1006.1920@74.0.1006.1920" timestamp="1603543974130" />
-    <state width="1803" height="314" key="GridCell.Tab.1.right/74.0.1846.1080@74.0.1846.1080" timestamp="1603956359035" />
+    <state width="863" height="314" key="GridCell.Tab.1.right/74.0.1846.1080@74.0.1846.1080" timestamp="1604031168514" />
     <state width="1435" height="564" key="GridCell.Tab.2.bottom" timestamp="1603775979676">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
@@ -544,10 +544,10 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="685" y="197" key="new project wizard/74.0.1846.1080@74.0.1846.1080" timestamp="1604028663042" />
-    <state x="653" y="193" width="672" height="676" key="search.everywhere.popup" timestamp="1604025805871">
+    <state x="653" y="193" width="672" height="676" key="search.everywhere.popup" timestamp="1604030497580">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
-    <state x="653" y="193" width="672" height="676" key="search.everywhere.popup/74.0.1846.1080@74.0.1846.1080" timestamp="1604025805871" />
+    <state x="653" y="193" width="672" height="676" key="search.everywhere.popup/74.0.1846.1080@74.0.1846.1080" timestamp="1604030497580" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -581,6 +581,16 @@
           <url>file://$PROJECT_DIR$/functional-code/src/main/java/com/loiter/functional/functionalcode/functionalinterface/demo1/LambdaDemo1.java</url>
           <line>37</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/guava-demo/src/main/java/com/loiter/guava/guavademo/tool/GuavaUtilDemo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/guava-demo/src/main/java/com/loiter/guava/guavademo/tool/GuavaUtilDemo.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
