@@ -4,24 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-nacos-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-webstocket/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-jdbc/pom.xml" />
-        <option value="$PROJECT_DIR$/apollo-open/pom.xml" />
-        <option value="$PROJECT_DIR$/parallel-code/pom.xml" />
-        <option value="$PROJECT_DIR$/functional-code/pom.xml" />
-        <option value="$PROJECT_DIR$/guava-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/autoconfiguretiondemo/pom.xml" />
-        <option value="$PROJECT_DIR$/builder-demo/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/spring-boot-admin-client/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="14" project-jdk-type="JavaSDK" />
 </project>

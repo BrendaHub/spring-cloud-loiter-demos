@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/apollo-open/apollo-open.iml" filepath="$PROJECT_DIR$/apollo-open/apollo-open.iml" />
-      <module fileurl="file://$PROJECT_DIR$/autoconfiguretiondemo/autoconfiguretiondemo.iml" filepath="$PROJECT_DIR$/autoconfiguretiondemo/autoconfiguretiondemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/builder-demo/builder-demo.iml" filepath="$PROJECT_DIR$/builder-demo/builder-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/functional-code/functional-code.iml" filepath="$PROJECT_DIR$/functional-code/functional-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/guava-demo/guava-demo.iml" filepath="$PROJECT_DIR$/guava-demo/guava-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-lambda-demo/java-lambda-demo.iml" filepath="$PROJECT_DIR$/java-lambda-demo/java-lambda-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-lock-demo/java-lock-demo.iml" filepath="$PROJECT_DIR$/java-lock-demo/java-lock-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/netty-demo/netty-demo.iml" />
@@ -14,9 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/redis-distributed-lock/redis-distributed-lock.iml" filepath="$PROJECT_DIR$/redis-distributed-lock/redis-distributed-lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-webstocket/spring-boot-webstocket.iml" filepath="$PROJECT_DIR$/spring-boot-webstocket/spring-boot-webstocket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-consumer/spring-cloud-nacos-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-consumer/spring-cloud-nacos-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-provider/spring-cloud-nacos-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-provider/spring-cloud-nacos-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-loiter-demos.iml" filepath="$PROJECT_DIR$/spring-loiter-demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-session-redis/spring-session-redis.iml" filepath="$PROJECT_DIR$/spring-session-redis/spring-session-redis.iml" />
