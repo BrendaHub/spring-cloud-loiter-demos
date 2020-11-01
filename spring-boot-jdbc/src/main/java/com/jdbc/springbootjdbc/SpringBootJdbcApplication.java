@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
 @SpringBootApplication
-public class SpringBootJdbcApplication implements CommandLineRunner{
+public class SpringBootJdbcApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootJdbcApplication.class, args);

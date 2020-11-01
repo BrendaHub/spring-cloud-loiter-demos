@@ -23,12 +23,12 @@ import static java.util.Arrays.asList;
  **/
 public class TestCase {
     public static void main(String[] args) throws JsonProcessingException {
-        List<Student> studentList = Stream.of(new Student("路飞", 23,123),
+        List<Student> studentList = Stream.of(new Student("路飞", 23, 123),
                 new Student("红发", 40, 180),
                 new Student("白胡子", 50, 185))
                 .collect(Collectors.toList());
         //对象映射
-        ObjectMapper objectMapper=new ObjectMapper();
+        ObjectMapper objectMapper = new ObjectMapper();
         try {
             System.out.println(objectMapper.writeValueAsString(studentList));
         } catch (JsonProcessingException e) {
@@ -72,7 +72,7 @@ public class TestCase {
         Optional<Student> min = studentList.stream()
                 .min(Comparator.comparing(item -> item.getAge()));
         try {
-            System.out.println("Min = " + (max.isPresent()?objectMapper.writeValueAsString(min.get()):objectMapper.writeValueAsString(new Student("默认", 0, 0 ))));
+            System.out.println("Min = " + (max.isPresent() ? objectMapper.writeValueAsString(min.get()) : objectMapper.writeValueAsString(new Student("默认", 0, 0))));
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
@@ -85,7 +85,7 @@ public class TestCase {
         Integer reduce = Stream.of(1, 2, 3, 4, 5, 6).reduce(0, (total, i) -> total + i);
         System.out.println("reduce is " + reduce);
         Integer reduce1 = Stream.of(23, 45, 22, 1).reduce(1, (i, j) -> i * j);
-        System.out.println(reduce1 + ":" + 23*45*22*1);
+        System.out.println(reduce1 + ":" + 23 * 45 * 22 * 1);
 
         // 数据进行分块， 分块完后就是boolean: [] 这种结构
         Map<Boolean, List<Student>> 雷利 = studentList.stream().collect(Collectors.partitioningBy(item -> item.getName()

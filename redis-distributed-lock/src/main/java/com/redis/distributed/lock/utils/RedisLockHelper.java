@@ -21,7 +21,7 @@ public class RedisLockHelper {
     private long sleepTime = 100;
 
     // 直接使用setnx + expire 方式获取分布式锁  setnx 和 expire 二步操作非原子性
-    public boolean lock_setnx(Jedis jedis, String key, String value , int timeout) {
+    public boolean lock_setnx(Jedis jedis, String key, String value, int timeout) {
         Long result = jedis.setnx(key, value);
         // result = 1 时， 设置成功， 否则设置失败
         if (result == 1L) {
@@ -32,7 +32,7 @@ public class RedisLockHelper {
     }
 
     /// 使用lua 脚本 ， 脚本中使用 setnx + expier 命令进行加锁操作 原子性
-    public boolean lock_with_lua (Jedis jedis , String key , String UniqueId,  int timeout )  {
+    public boolean lock_with_lua(Jedis jedis, String key, String UniqueId, int timeout) {
         String lua_script = " if redis.call('setnx', KEYS[1], ARGV[1]) == 1 then " +
                 " redis.call('expire', KEYS[1], ARGV[2]) return 1 else return 0 end ";
 
@@ -80,12 +80,12 @@ public class RedisLockHelper {
     }
 
     // 暴力删除锁， 不建议使用
-    public void unlock_with_del(Jedis jedis, String key ) {
+    public void unlock_with_del(Jedis jedis, String key) {
         jedis.del(key);
     }
 
     // 采用lua 脚 本 释放分布式锁
-    public boolean unlock(Jedis jedis, String key, String value ) {
+    public boolean unlock(Jedis jedis, String key, String value) {
         String luaScript = " if redis.call('get', KEYS[1]) == ARGV[1] then " +
                 " return redis.call('del', KEYS[1]) else return 0 end ";
         return jedis.eval(luaScript, Collections.singletonList(key), Collections.singletonList(value)).equals(1L);

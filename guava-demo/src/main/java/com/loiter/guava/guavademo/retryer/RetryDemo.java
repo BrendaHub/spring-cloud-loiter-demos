@@ -28,6 +28,7 @@ public class RetryDemo {
 
         Callable<Boolean> task = new Callable<Boolean>() {
             int i = 0;
+
             @Override
             public Boolean call() throws Exception {
                 i++;
@@ -40,9 +41,9 @@ public class RetryDemo {
             }
         };
 
-        try{
+        try {
             retryer.call(task);
-        }catch (ExecutionException e) {
+        } catch (ExecutionException e) {
             e.printStackTrace();
         } catch (RetryException e) {
             e.printStackTrace();

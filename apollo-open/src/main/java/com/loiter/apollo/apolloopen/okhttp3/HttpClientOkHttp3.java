@@ -13,7 +13,8 @@ public class HttpClientOkHttp3 {
 
     public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     OkHttpClient client = new OkHttpClient();
-    public  String get(String url) throws IOException {
+
+    public String get(String url) throws IOException {
         Request request = new Request.Builder()
                 .url(url)
                 .build();

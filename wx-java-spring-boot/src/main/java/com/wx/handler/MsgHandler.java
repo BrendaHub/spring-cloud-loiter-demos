@@ -32,7 +32,7 @@ public class MsgHandler extends AbstractHandler {
             if (StringUtils.startsWithAny(wxMessage.getContent(), "你好", "客服")
 //                    && weixinService.getKefuService().kfOnlineList()
 //                    .getKfOnlineList().size() > 0) {
-            ){
+            ) {
                 return WxMpXmlOutMessage.TRANSFER_CUSTOMER_SERVICE()
                         .fromUser(wxMessage.getToUser())
                         .toUser(wxMessage.getFromUser()).build();
@@ -44,6 +44,6 @@ public class MsgHandler extends AbstractHandler {
         //TODO 组装回复消息
         String content = "收到信息内容：" + JsonUtils.toJson(wxMessage);
 
-        return new TextBuilder().build(content, wxMessage,  null);//, weixinService);
+        return new TextBuilder().build(content, wxMessage, null);//, weixinService);
     }
 }

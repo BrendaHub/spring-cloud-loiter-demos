@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class operService {
 
     @Transactional
-    public  void main(String[] args) {
+    public void main(String[] args) {
 
     }
 }

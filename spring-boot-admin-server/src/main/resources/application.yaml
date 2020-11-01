@@ -5,7 +5,7 @@ spring:
     name: spring-boot-admin-server
   boot:
     admin:
-#      context-path: /admin
+      #      context-path: /admin
       url: http://localhost:${server.port}
   jackson:
     serialization:

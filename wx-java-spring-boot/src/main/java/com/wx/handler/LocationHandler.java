@@ -27,8 +27,8 @@ public class LocationHandler extends AbstractHandler {
             //TODO 接收处理用户发送的地理位置消息
             try {
                 Map<String, Object> allFieldsMap = wxMessage.getAllFieldsMap();
-                allFieldsMap.forEach((k,v) -> {
-                    log.info("key is {}, value is {}", k, (String)v);
+                allFieldsMap.forEach((k, v) -> {
+                    log.info("key is {}, value is {}", k, (String) v);
                 });
                 String content = "感谢反馈，您的的地理位置已收到！";
                 return new TextBuilder().build(content, wxMessage, null);

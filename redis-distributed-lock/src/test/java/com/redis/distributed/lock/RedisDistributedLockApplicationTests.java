@@ -11,17 +11,17 @@ import java.util.concurrent.TimeUnit;
 @SpringBootTest
 class RedisDistributedLockApplicationTests {
 
-	@Autowired
-	private RedisConfig redisConfig;
+    @Autowired
+    private RedisConfig redisConfig;
 
-	@Test
-	void contextLoads() {
-		System.out.println(Long.MIN_VALUE);
-		System.out.println(TimeUnit.SECONDS);
+    @Test
+    void contextLoads() {
+        System.out.println(Long.MIN_VALUE);
+        System.out.println(TimeUnit.SECONDS);
 
-		new RedissonUtils().tryLock(redisConfig);
+        new RedissonUtils().tryLock(redisConfig);
 
 
-	}
+    }
 
 }

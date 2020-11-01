@@ -8,5 +8,5 @@ import java.util.Map;
 @FeignClient(name = "spring-nacos-provider", fallback = RemoteHystrix.class)
 public interface INacosProviderClient {
     @GetMapping("/hello/echo")
-     String info(@RequestParam String name) ;
+    String info(@RequestParam String name);
 }

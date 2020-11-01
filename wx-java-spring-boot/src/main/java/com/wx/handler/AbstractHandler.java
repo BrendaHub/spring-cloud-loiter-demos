@@ -9,7 +9,7 @@ import me.chanjar.weixin.mp.api.WxMpMessageHandler;
  * @Author chenhj(brenda)
  * site: https://www.ant-loiter.com
  **/
-public abstract  class AbstractHandler implements WxMpMessageHandler {
+public abstract class AbstractHandler implements WxMpMessageHandler {
 
 
 }

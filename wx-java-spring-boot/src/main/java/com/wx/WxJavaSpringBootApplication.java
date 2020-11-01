@@ -17,11 +17,9 @@ import org.springframework.scheduling.annotation.Async;
 public class WxJavaSpringBootApplication {
 
 
-	public static void main(String[] args) {
-		SpringApplication.run(WxJavaSpringBootApplication.class, args);
-	}
-
-
+    public static void main(String[] args) {
+        SpringApplication.run(WxJavaSpringBootApplication.class, args);
+    }
 
 
 }

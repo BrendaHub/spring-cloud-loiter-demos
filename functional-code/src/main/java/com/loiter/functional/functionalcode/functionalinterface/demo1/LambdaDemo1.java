@@ -27,7 +27,7 @@ public class LambdaDemo1 {
         Function<String, Start> toStart = item -> {
             Start start = null;
             try {
-                 start = objectMapper.readValue(item, Start.class);
+                start = objectMapper.readValue(item, Start.class);
             } catch (JsonProcessingException e) {
                 e.printStackTrace();
             }
@@ -47,7 +47,7 @@ public class LambdaDemo1 {
                     e.printStackTrace();
                 } catch (IOException e) {
                     e.printStackTrace();
-                }finally {
+                } finally {
 
                 }
             }
@@ -84,7 +84,6 @@ public class LambdaDemo1 {
 //            System.out.println(s1.show(femal));
             System.out.println(femal.apply(s1));
         }
-
 
 
     }

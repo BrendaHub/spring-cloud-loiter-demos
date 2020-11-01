@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpringUtil implements ApplicationContextAware {
     private static ApplicationContext applicationContext;
+
     // 获取applicationContext
     public static ApplicationContext getApplicationContext() {
         return applicationContext;
@@ -33,6 +34,7 @@ public class SpringUtil implements ApplicationContextAware {
     public static <T> T getBean(String name, Class<T> clazz) {
         return getApplicationContext().getBean(name, clazz);
     }
+
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         if (SpringUtil.applicationContext == null) {

@@ -31,7 +31,7 @@ public class Test {
         Consumer<String> consumer1 = consumer.andThen(System.out::println);
         consumer1.accept("最后一次显示");
 
-        Function<Student, String>function = Student::getName;
+        Function<Student, String> function = Student::getName;
         String name = function.apply(student);
         System.out.println(name);
 
@@ -46,7 +46,7 @@ public class Test {
         Supplier<Integer> supplier = () -> Integer.valueOf(BigDecimal.TEN.toString());
         System.out.println(supplier.get());
 
-        Supplier<String> supplier1 = () -> "Hello, Functioniterface" ;
+        Supplier<String> supplier1 = () -> "Hello, Functioniterface";
         System.out.println(supplier1.get());
 
         UnaryOperator<Boolean> unaryOperator = uglily -> !uglily;
@@ -54,7 +54,7 @@ public class Test {
         System.out.println(apply2);
 
         BinaryOperator<Integer> binaryOperator = (x, y) -> x * y;
-        Integer integer = binaryOperator.apply(4,5);
+        Integer integer = binaryOperator.apply(4, 5);
         System.out.println(integer);
 
         test(() -> "我是一个演示函数式 接口");
@@ -64,15 +64,17 @@ public class Test {
         String work = worker.work();
         System.out.println(work);
     }
+
     @FunctionalInterface
     public interface Worker {
         String work();
     }
 }
+
 class Student {
     private String name;
-    private int age ;
-    private int len ;
+    private int age;
+    private int len;
 
     public String getName() {
         return name;

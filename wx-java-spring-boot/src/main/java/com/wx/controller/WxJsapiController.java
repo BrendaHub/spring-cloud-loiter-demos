@@ -42,7 +42,7 @@ public class WxJsapiController {
         log.info("jsapiSignature is {}", jsapiSignature);
         log.info(this.wxService.getAccessToken(false));
         // 偿试着调jsapi看看
-        String shortUrl =  wxService.shortUrl("http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115&token=&lang=zh_CN");
+        String shortUrl = wxService.shortUrl("http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115&token=&lang=zh_CN");
         log.info("shorUrl is {}", shortUrl);
         WxMpMenuService wxMpMenuService = wxService.getMenuService();
         WxMpGetSelfMenuInfoResult selfMenuInfo = wxMpMenuService.getSelfMenuInfo();

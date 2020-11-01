@@ -17,18 +17,18 @@ public class BeanInfoDemo {
     public static void main(String[] args) throws IntrospectionException {
         BeanInfo beanInfo = Introspector.getBeanInfo(Persion.class, Object.class);
         Stream.of(beanInfo.getPropertyDescriptors())
-            .forEach(
-                    item -> {
-                        Class<?> proertyType = item.getPropertyType();
-                        String propertyName = proertyType.getName();
-                        if("age".equals(propertyName)) {
-                            item.setPropertyEditorClass(StringToIntegerPropertyEditor.class);
+                .forEach(
+                        item -> {
+                            Class<?> proertyType = item.getPropertyType();
+                            String propertyName = proertyType.getName();
+                            if ("age".equals(propertyName)) {
+                                item.setPropertyEditorClass(StringToIntegerPropertyEditor.class);
+                            }
                         }
-                    }
-            );
+                );
         ;
         Stream.of(beanInfo.getEventSetDescriptors())
-            .forEach(System.out::println);
+                .forEach(System.out::println);
         ;
     }
 
@@ -37,5 +37,5 @@ public class BeanInfoDemo {
             Integer value = Integer.valueOf(text);
             setValue(value);
         }
-     }
+    }
 }

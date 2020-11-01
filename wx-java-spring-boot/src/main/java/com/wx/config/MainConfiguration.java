@@ -21,8 +21,7 @@ import org.springframework.context.annotation.Configuration;
 public class MainConfiguration {
 
     /**
-     * @Value三种情况的用法。
-     * $是去找外部配置的参数，将值赋过来
+     * @Value三种情况的用法。 $是去找外部配置的参数，将值赋过来
      * #是SpEL表达式，去寻找对应变量的内容
      * 直接写字符串就是将字符串的值注入进去
      **/

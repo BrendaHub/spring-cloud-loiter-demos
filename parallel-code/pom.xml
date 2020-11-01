@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.loiter.parallel</groupId>
     <artifactId>parallel-code</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1.12-RELEASE</version>
     <name>parallel-code</name>
     <description>Demo project for Spring Boot</description>
 
@@ -42,6 +42,24 @@
             </exclusions>
         </dependency>
     </dependencies>
+
+
+    <!--注意：repository里的id需要和第一步里的server id名称保持一致-->
+    <distributionManagement>
+        <repository>
+            <!--id的名字可以任意取，但是在setting文件中的属性<server>的ID与这里一致-->
+            <id>releases</id>
+            <name>Releases</name>
+            <!--指向仓库类型为host(宿主仓库）的储存类型为Release的仓库-->
+            <url>http://localhost:8191/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshot</name>
+            <!--指向仓库类型为host(宿主仓库）的储存类型为Snapshot的仓库-->
+            <url>http://localhost:8191/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
         <plugins>

@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import  java.util.Map;
+import java.util.Map;
 
 /**
  * @author loiter
@@ -29,19 +29,20 @@ public class DemoServiceImpl implements DemoService {
     private JdbcTemplate jdbcTemplate;
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)public boolean save(String json) {
+    @Transactional(propagation = Propagation.REQUIRED)
+    public boolean save(String json) {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             Map<String, Object> map = objectMapper.readValue(json, Map.class);
-            return  jdbcTemplate.execute("insert into t_user (name, age) values (?, ?)", new PreparedStatementCallback<Integer>() {
+            return jdbcTemplate.execute("insert into t_user (name, age) values (?, ?)", new PreparedStatementCallback<Integer>() {
                 @Override
                 public Integer doInPreparedStatement(PreparedStatement ps) throws SQLException, DataAccessException {
-                    ps.setString(1, (String)map.get("name"));
-                    ps.setInt(2, (Integer)map.get("age"));
+                    ps.setString(1, (String) map.get("name"));
+                    ps.setInt(2, (Integer) map.get("age"));
 
                     return ps.executeUpdate();
                 }
-            }) > 0 ;
+            }) > 0;
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }

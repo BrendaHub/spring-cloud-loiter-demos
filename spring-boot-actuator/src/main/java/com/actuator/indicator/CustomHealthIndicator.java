@@ -12,12 +12,12 @@ import javax.validation.constraints.Size;
 @Slf4j
 public class CustomHealthIndicator extends AbstractHealthIndicator {
     /**
+     * @return void
+     * site: https://www.ant-loiter.com
      * @Author chenhj(brenda)
      * @Description //TODO 自定义项目健康测试结果显示内容；
      * @Date 11:06 2020/5/19
      * @Param [builder]
-     * @return void
-     * site: https://www.ant-loiter.com
      **/
     @Override
     protected void doHealthCheck(Health.Builder builder) throws Exception {

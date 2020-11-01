@@ -6,9 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class RedisDistributedLockApplication {
 
-	public static void main(String[] args)
-	{
-		SpringApplication.run(RedisDistributedLockApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(RedisDistributedLockApplication.class, args);
+    }
 
 }

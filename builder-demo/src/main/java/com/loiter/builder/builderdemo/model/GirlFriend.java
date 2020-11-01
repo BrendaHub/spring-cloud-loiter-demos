@@ -124,10 +124,12 @@ public class GirlFriend implements Serializable {
         this.hobby = Optional.ofNullable(this.hobby).orElse(new ArrayList<>());
         this.hobby.add(hobby);
     }
+
     public void addGift(String day, String gift) {
         this.gift = Optional.ofNullable(this.gift).orElse(new HashMap<>());
         this.gift.put(day, gift);
     }
+
     public void setVitalStatistics(int bust, int waist, int hips) {
         this.bust = bust;
         this.waist = waist;

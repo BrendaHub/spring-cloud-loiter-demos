@@ -5,9 +5,7 @@ import java.util.function.Consumer;
 /**
  * @author loiter
  * @date 2020/10/29 0:23
- * @description
- *
- * {@link Consumer} 只进不出的函数编程函数， 一定是返回值为void的方法，
+ * @description {@link Consumer} 只进不出的函数编程函数， 一定是返回值为void的方法，
  */
 public class ConsumerDemo {
 
@@ -28,7 +26,7 @@ public class ConsumerDemo {
         consumer.accept(message);
     }
 
-    public static void echo (String message) {
+    public static void echo(String message) {
         System.out.println("echo > " + message);
     }
 

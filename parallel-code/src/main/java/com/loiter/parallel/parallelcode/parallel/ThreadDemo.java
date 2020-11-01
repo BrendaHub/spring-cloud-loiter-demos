@@ -1,5 +1,7 @@
 package com.loiter.parallel.parallelcode.parallel;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author loiter
  * @date 2020/10/28 10:15
@@ -8,6 +10,9 @@ package com.loiter.parallel.parallelcode.parallel;
 public class ThreadDemo {
 
     public static void main(String[] args) throws InterruptedException {
+        System.out.println(TimeUnit.SECONDS.toMillis(3));
+        System.out.println(TimeUnit.SECONDS.toMicros(3));
+        System.out.println(TimeUnit.SECONDS.toMinutes(3));
         Thread thread = new Thread(ThreadDemo::helloWorld);
         thread.start();
         thread.join();
@@ -25,7 +30,7 @@ public class ThreadDemo {
         Thread thread2 = new Thread(() -> {
             System.out.println(Thread.currentThread().getName());
             thread1.interrupt();
-            if(thread1.isInterrupted()) {
+            if (thread1.isInterrupted()) {
                 System.out.println("thread1 is interrupted");
             }
             try {

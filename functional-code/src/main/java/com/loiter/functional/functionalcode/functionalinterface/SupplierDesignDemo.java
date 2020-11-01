@@ -30,7 +30,7 @@ public class SupplierDesignDemo {
 
         Supplier<String> stringSupplier = SupplierDesignDemo.supplyMessage();
         String s = stringSupplier.get();
-        System.out.println(">>>"+s);
+        System.out.println(">>>" + s);
     }
 
     public static void echo(String message) {

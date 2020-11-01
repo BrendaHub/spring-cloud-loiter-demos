@@ -34,7 +34,7 @@ public class OneController {
     static WxMpConfigStorage wxMpConfigStorage;
 
     @GetMapping("/mp")
-    public ResponseEntity<Object> echo(){
+    public ResponseEntity<Object> echo() {
         log.info("wxMpService is " + wxMpService + " config is " + wxMpConfigStorage);
 //        try {
 //            String acc = wxMpService.getAccessToken();

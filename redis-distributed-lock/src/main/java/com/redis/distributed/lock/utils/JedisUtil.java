@@ -33,7 +33,7 @@ public class JedisUtil {
     private JedisPool getPool() {
         String key = redisProperties.getHost() + ":" + redisProperties.getPort();
         JedisPool jedisPool;
-        if(!mapPool.containsKey(key)) {
+        if (!mapPool.containsKey(key)) {
             JedisPoolConfig config = new JedisPoolConfig();
             config.setMaxIdle(redisProperties.getMax_idle());
             config.setMaxWaitMillis(redisProperties.getMax_wait());
@@ -52,11 +52,11 @@ public class JedisUtil {
 
     public Jedis getJedis() {
         Jedis jedis = null;
-        int count = 0 ;
+        int count = 0;
         do {
             try {
                 jedis = getPool().getResource();
-                count ++ ;
+                count++;
             } catch (Exception ex) {
                 logger.error("get jedis failed", ex);
                 if (jedis != null) {

@@ -15,17 +15,17 @@ public class UnSafeDemo {
 
     public static void main(String[] args) {
 
-        for (int i = 0 ; i < 100000; i ++) {
+        for (int i = 0; i < 100000; i++) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    values ++;
+                    values++;
                     atomicInteger.incrementAndGet();
                 }
             }).start();
         }
 
         System.out.println(" values is " + values);
-        System.out.println(" atomicInteger is " +  atomicInteger);
+        System.out.println(" atomicInteger is " + atomicInteger);
     }
 }

@@ -38,7 +38,7 @@ public class ArrayListDemo {
         arrays[0] = "1";
         arrays[1] = "2";
         arrays[2] = "3";
-         String[] ar1 = {"4","5"};
+        String[] ar1 = {"4", "5"};
         arrays[3] = "44";
         List<String> list = new ArrayList<>(Arrays.asList(arrays));
 

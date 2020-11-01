@@ -2,7 +2,7 @@ package com.nacos.springcloudnacosconsumer.vo;
 
 import java.io.Serializable;
 
-public class ResultVO <T> implements Serializable {
+public class ResultVO<T> implements Serializable {
 
     private static final long serialVersionUID = 2992076632235691301L;
 

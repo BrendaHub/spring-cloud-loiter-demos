@@ -11,21 +11,21 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class LeguanLock {
 
     // 线程不安全
-    private  static int value1 = 0 ;
+    private static int value1 = 0;
 
     // 使用乐观锁
     private static AtomicInteger value2 = new AtomicInteger(0);
 
     // 使用悲观锁
-    private static  int value3 = 0 ;
+    private static int value3 = 0;
 
     private static synchronized void increaseValue3() {
-        value3 ++;
+        value3++;
     }
 
-    public static void main(String[] args) throws  Exception {
+    public static void main(String[] args) throws Exception {
         // 开发1000个线程，
-        for(int i = 0 ; i < 1000 ; i ++) {
+        for (int i = 0; i < 1000; i++) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -34,7 +34,7 @@ public class LeguanLock {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    value1 ++;
+                    value1++;
                     value2.getAndIncrement();
                     increaseValue3();
                 }

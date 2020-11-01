@@ -17,29 +17,29 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 public class SpringCloudNacosProviderApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringCloudNacosProviderApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringCloudNacosProviderApplication.class, args);
+    }
 
-	@GetMapping(value = "/info/{name}")
-	public ResponseEntity<Result> hello (@PathVariable("name") String name) {
-		Result<String> result = new Result<String>("1000", "test info", "Hello, " + name);
-		return new ResponseEntity<Result>(result, HttpStatus.OK);
-	}
+    @GetMapping(value = "/info/{name}")
+    public ResponseEntity<Result> hello(@PathVariable("name") String name) {
+        Result<String> result = new Result<String>("1000", "test info", "Hello, " + name);
+        return new ResponseEntity<Result>(result, HttpStatus.OK);
+    }
 
-	@GetMapping("/echo")
-	public String info(@RequestParam String name) {
-		log.info("request  param name  is {} " , name);
-		return "Hello, " + name;
-	}
+    @GetMapping("/echo")
+    public String info(@RequestParam String name) {
+        log.info("request  param name  is {} ", name);
+        return "Hello, " + name;
+    }
 
 }
 
 @Data
 @AllArgsConstructor
-class Result <T> {
-	private String code;
-	private String message;
-	private T t;
+class Result<T> {
+    private String code;
+    private String message;
+    private T t;
 
 }

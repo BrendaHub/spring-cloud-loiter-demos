@@ -15,9 +15,9 @@ import java.util.Map;
 
 /**
  * @author loiter
- * @see {@link}
  * @date 2020/10/24 20:09
  * @description Demo Controller JDBC
+ * @see {@link}
  */
 @RestController
 @RequestMapping("/demo")
@@ -30,7 +30,7 @@ public class DemoController {
     private DemoService demoService;
 
     @GetMapping("/get")
-    public Map<String,Object> get(@RequestParam(value = "id", defaultValue = "1") int id) {
+    public Map<String, Object> get(@RequestParam(value = "id", defaultValue = "1") int id) {
         String _sql = "SELECT id, name, age FROM t_user where id = " + id;
         String sql = "SELECT id, name, age FROM t_user where id = ?";
 
@@ -47,16 +47,18 @@ public class DemoController {
                 return resultSet;
             }
         });
-    };
+    }
+
+    ;
 
     @PostMapping("/save")
     @ResponseBody
-    public Map<String,Object> get(@RequestBody(required = true) String  json) {
-         return new HashMap<String, Object>(){
-             {
-                 put("result", Boolean.valueOf(demoService.save(json)));
-             }
-         };
+    public Map<String, Object> get(@RequestBody(required = true) String json) {
+        return new HashMap<String, Object>() {
+            {
+                put("result", Boolean.valueOf(demoService.save(json)));
+            }
+        };
     }
 
     // 自定义一个通过的of方法

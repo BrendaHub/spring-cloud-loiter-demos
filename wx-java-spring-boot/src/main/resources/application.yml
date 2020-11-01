@@ -20,7 +20,7 @@ spring:
     admin:
       client:
         url: http://localhost:8090
-# 配置redis begin
+  # 配置redis begin
   redis:
     database: 0
     host: 192.168.1.204

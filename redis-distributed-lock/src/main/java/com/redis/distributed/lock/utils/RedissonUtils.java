@@ -24,7 +24,7 @@ public class RedissonUtils {
     public void tryLock(RedisConfig redisConfig) {
         // 1. 配置文件
         Config config = new Config();
-        System.out.println(redisConfig.getHost()+" : " + redisConfig.getPort() + ">>" + redisConfig.getPassword());
+        System.out.println(redisConfig.getHost() + " : " + redisConfig.getPort() + ">>" + redisConfig.getPassword());
         SingleServerConfig singleServerConfig = config.useSingleServer();
         StringBuilder sb = new StringBuilder("redis://");
         sb.append(redisConfig.getHost());
@@ -43,7 +43,7 @@ public class RedissonUtils {
         // 3. 设置锁定资源名称
         RLock lock = redissonClient.getLock("redLock");
 
-        boolean isLock ;
+        boolean isLock;
 
         try {
             isLock = lock.tryLock(500, 30000, TimeUnit.MILLISECONDS);

@@ -50,7 +50,7 @@ public class day001 {
     private static boolean checkLeap(int year) {
         // check Leap function
         return year > 1900 && year < 99999 ?
-                ( (year % 4 == 0 && year % 100 != 0) || year % 400 == 0) : false;
+                ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) : false;
     }
 
     private static void collectsToMap() {
@@ -67,7 +67,7 @@ public class day001 {
         pairs.add(new Pair<>("beijing", "OK"));
         pairs.add(new Pair<>("jiujiang", "success"));
         pairs.add(new Pair<>("wuhan", "fail"));
-        Map<String, String> newMap = pairs.stream().filter(item->!item.getKey().equals("")).collect(
+        Map<String, String> newMap = pairs.stream().filter(item -> !item.getKey().equals("")).collect(
                 Collectors.toMap(Pair::getKey, Pair::getValue, (v1, v2) -> v1 + v2)
         );
         System.out.println("?>>" + newMap);
@@ -78,26 +78,26 @@ public class day001 {
         pairs1.add(new Pair<>("jiujiang", "success"));
         pairs1.add(new Pair<>("heli", "fail"));
         Map<String, Integer> map2 = pairs1.stream().collect(
-                Collectors.toMap(Pair::getKey, item->item.getValue().hashCode(), (v1, v2) -> v1.hashCode() + v2.hashCode())
+                Collectors.toMap(Pair::getKey, item -> item.getValue().hashCode(), (v1, v2) -> v1.hashCode() + v2.hashCode())
         );
         System.out.println(map2);
     }
 
     /**
+     * @return boolean
+     * site: https://www.ant-loiter.com
      * @Author chenhj(brenda)
      * @Description // 集合的size()方法的时间复杂度比isEmpty()要高；
      * @Date 22:52 2020/7/5
      * @Param []
-     * @return boolean
-     * site: https://www.ant-loiter.com
      **/
     private static boolean checkCollectionsIsEmpty() {
         Map<String, String> hashMap = new HashMap<>();
-        for(int i = 0 ; i < 10000; i ++) {
+        for (int i = 0; i < 10000; i++) {
             hashMap.put(String.valueOf(i), "value_" + i);
         }
         long begin = System.currentTimeMillis();
-        for(int i = 0 ; i < 10000; i ++) {
+        for (int i = 0; i < 10000; i++) {
             int len = hashMap.size();
             System.out.println("len is " + len);
         }
@@ -105,7 +105,7 @@ public class day001 {
         long firstTimes = end - begin;
 
         begin = System.currentTimeMillis();
-        for(int i = 0  ; i < 10000; i ++) {
+        for (int i = 0; i < 10000; i++) {
             boolean rel = hashMap.isEmpty();
             System.out.println(" result is " + rel);
         }
@@ -117,13 +117,13 @@ public class day001 {
     }
 
     /**
+     * @return void
+     * site: https://www.ant-loiter.com
      * @Author chenhj(brenda)
      * @Description //【强制】三目运算符 condition? 表达式 1 : 表达式 2 中，高度注意表达式 1 和 2 在类型对齐
      * 时，可能抛出因自动拆箱导致的 NPE 异常。 {@link Integer } 三目运算操作
      * @Date 20:54 2020/7/5
      * @Param []
-     * @return void
-     * site: https://www.ant-loiter.com
      **/
     private static void threeItem() {
         Integer a = 2;

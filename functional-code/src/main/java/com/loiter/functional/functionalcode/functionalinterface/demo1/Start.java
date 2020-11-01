@@ -53,12 +53,12 @@ public class Start {
         this.findDate = findDate;
     }
 
-    public String show(Function<Start, String> func){
-        System.out.println("======I'm Function.apply======"+func.apply(this));
-        return "显示信息： length="+this.length+";name="+this.name+";Date="+findDate;
+    public String show(Function<Start, String> func) {
+        System.out.println("======I'm Function.apply======" + func.apply(this));
+        return "显示信息： length=" + this.length + ";name=" + this.name + ";Date=" + findDate;
     }
 
-    public void xiaoFei(Consumer<String > consumer, String msg ) {
+    public void xiaoFei(Consumer<String> consumer, String msg) {
         consumer.accept(msg);
     }
 

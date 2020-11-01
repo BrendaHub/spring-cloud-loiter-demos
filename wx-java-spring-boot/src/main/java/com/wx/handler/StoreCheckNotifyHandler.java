@@ -16,7 +16,7 @@ import java.util.Map;
  * site: https://www.ant-loiter.com
  **/
 @Component
-public class StoreCheckNotifyHandler extends AbstractHandler{
+public class StoreCheckNotifyHandler extends AbstractHandler {
     @Override
     public WxMpXmlOutMessage handle(WxMpXmlMessage wxMessage, Map<String, Object> context, WxMpService wxMpService, WxSessionManager sessionManager) throws WxErrorException {
         // TODO 处理门店审核事件

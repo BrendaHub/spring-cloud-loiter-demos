@@ -25,7 +25,7 @@ public class AuthorTestConfiguration {
 //    @Value("${author.age}")
 //    private int age;
 
-     // 引入ConfigurationProperties(prefix = "author") 使写法更简单
+    // 引入ConfigurationProperties(prefix = "author") 使写法更简单
     private String name;
     private int age;
 }

@@ -1,72 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.7.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<groupId>com.loiter</groupId>
-	<artifactId>spring-loiter-demos</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-loiter-demos</name>
-	<description>Demo project for Spring Boot</description>
-	<packaging>pom</packaging>
-	<modules>
-		<module>spring-session-redis</module>
-		<module>spring-cloud-nacos-provider</module>
-		<module>spring-boot-actuator</module>
-		<module>spring-boot-admin-server</module>
-		<module>wx-java-spring-boot</module>
-		<module>java-lock-demo</module>
-		<module>redis-distributed-lock</module>
-		<module>java-lambda-demo</module>
-		<module>netty-demo</module>
-		<module>parallel-code</module>
-	</modules>
-	<properties>
-		<java.version>1.8</java.version>
-		<netty.version>4.1.5.Final</netty.version>
-	</properties>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.7.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.loiter</groupId>
+    <artifactId>spring-loiter-demos</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>spring-loiter-demos</name>
+    <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-session-redis</module>
+        <module>spring-cloud-nacos-provider</module>
+        <module>spring-boot-actuator</module>
+        <module>spring-boot-admin-server</module>
+        <module>wx-java-spring-boot</module>
+        <module>java-lock-demo</module>
+        <module>redis-distributed-lock</module>
+        <module>java-lambda-demo</module>
+        <module>netty-demo</module>
+    </modules>
+    <properties>
+        <java.version>1.8</java.version>
+        <netty.version>4.1.14.Final</netty.version>
+    </properties>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>io.netty</groupId>
-				<artifactId>netty-all</artifactId>
-				<version>${netty.version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
