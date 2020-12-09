@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -51,38 +54,63 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2134a417-79f8-4c14-8941-925615c616e0" name="Default Changelist" comment="" />
+    <list default="true" id="b49b4bca-e1e8-4f65-b750-dc1b9a45240a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1je8qaPWYoRHf4ohURPryDH1s2X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1jh0yFXF8jtVsw7vBCmO1bc2vKW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.alibabacloud.intellij.config.SshProfileConfigurable" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.ThreadDemo">
+    <configuration name="AbstractQueuedSynchronizerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loiter.parallel.parallelcode.AbstractQueuedSynchronizerDemo" />
+      <module name="parallel-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loiter.parallel.parallelcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.loiter.parallel.parallelcode.parallel.ThreadDemo" />
       <module name="parallel-code" />
@@ -96,6 +124,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApolloOpenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apollo-open" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loiter.apollo.apolloopen.ApolloOpenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaLambdaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="java-lambda-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lambda.JavaLambdaDemoApplication" />
@@ -103,9 +149,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaLockDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java-lock-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lock.JavaLockDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParallelCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="parallel-code" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.loiter.parallel.parallelcode.ParallelCodeApplication" />
+      <option name="VM_PARAMETERS" value="-XX:NativeMemoryTracking=detail" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +175,8 @@
     <configuration name="SpringBootActuatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-actuator" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.actuator.SpringBootActuatorApplication" />
+      <option name="VM_PARAMETERS" value="-XX:NativeMemoryTracking=detail" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,12 +209,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AbstractQueuedSynchronizerDemo" />
+      <item itemvalue="Spring Boot.ApolloOpenApplication" />
+      <item itemvalue="Spring Boot.JavaLambdaDemoApplication" />
+      <item itemvalue="Spring Boot.JavaLockDemoApplication" />
+      <item itemvalue="Spring Boot.ParallelCodeApplication" />
+      <item itemvalue="Spring Boot.RedisDistributedLockApplication" />
+      <item itemvalue="Spring Boot.SpringBootActuatorApplication" />
+      <item itemvalue="Spring Boot.SpringBootAdminServerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudNacosProviderApplication" />
+      <item itemvalue="Spring Boot.SpringSessionRedisApplication" />
+      <item itemvalue="Spring Boot.WxJavaSpringBootApplication" />
+      <item itemvalue="Application.ThreadDemo" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.AbstractQueuedSynchronizerDemo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -166,17 +239,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2134a417-79f8-4c14-8941-925615c616e0" name="Default Changelist" comment="" />
-      <created>1604153390109</created>
+      <changelist id="b49b4bca-e1e8-4f65-b750-dc1b9a45240a" name="Default Changelist" comment="" />
+      <created>1604241268909</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604153390109</updated>
-      <workItem from="1604153414569" duration="1667000" />
+      <updated>1604241268909</updated>
+      <workItem from="1604241278924" duration="5477000" />
+      <workItem from="1604498154455" duration="1257000" />
+      <workItem from="1604668186321" duration="104000" />
+      <workItem from="1604761370169" duration="2683000" />
+      <workItem from="1605015204098" duration="146000" />
+      <workItem from="1607266644010" duration="1170000" />
+      <workItem from="1607346916799" duration="20000" />
+      <workItem from="1607525364374" duration="168000" />
+      <workItem from="1607525622170" duration="1203000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -188,55 +269,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1803" height="364" key="GridCell.Tab.0.bottom" timestamp="1604154782570">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state width="1803" height="364" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1604154782570" />
-    <state width="1803" height="364" key="GridCell.Tab.0.center" timestamp="1604154782570">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state width="1803" height="364" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1604154782570" />
-    <state width="1803" height="364" key="GridCell.Tab.0.left" timestamp="1604154782570">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state width="1803" height="364" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1604154782570" />
-    <state width="1803" height="364" key="GridCell.Tab.0.right" timestamp="1604154782570">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state width="1803" height="364" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1604154782570" />
-    <state width="1803" height="364" key="GridCell.Tab.1.bottom" timestamp="1604154767085">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state width="1803" height="364" key="GridCell.Tab.1.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1604154767085" />
-    <state width="1803" height="364" key="GridCell.Tab.1.center" timestamp="1604154767085">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state width="1803" height="364" key="GridCell.Tab.1.center/74.0.1846.1080@74.0.1846.1080" timestamp="1604154767085" />
-    <state width="1803" height="364" key="GridCell.Tab.1.left" timestamp="1604154767085">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state width="1803" height="364" key="GridCell.Tab.1.left/74.0.1846.1080@74.0.1846.1080" timestamp="1604154767085" />
-    <state width="1803" height="364" key="GridCell.Tab.1.right" timestamp="1604154767085">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state width="1803" height="364" key="GridCell.Tab.1.right/74.0.1846.1080@74.0.1846.1080" timestamp="1604154767085" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/parallel-code/src/main/java/com/loiter/parallel/parallelcode/parallel/ThreadDemo.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/parallel-code/src/main/java/com/loiter/parallel/parallelcode/parallel/ThreadDemo.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

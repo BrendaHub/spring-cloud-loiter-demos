@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer-spring-boot-starter.iml" filepath="$PROJECT_DIR$/consumer-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-boot-starter-autoconfigure.iml" filepath="$PROJECT_DIR$/hello-spring-boot-starter-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-lambda-demo/java-lambda-demo.iml" filepath="$PROJECT_DIR$/java-lambda-demo/java-lambda-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-lock-demo/java-lock-demo.iml" filepath="$PROJECT_DIR$/java-lock-demo/java-lock-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/netty-demo/netty-demo.iml" />

@@ -18,6 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apollo-open" target="1.8" />
       <module name="java-lambda-demo" target="1.8" />
       <module name="java-lock-demo" target="1.8" />
       <module name="netty-demo" target="1.8" />
@@ -33,6 +34,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apollo-open" options="-parameters" />
       <module name="java-lambda-demo" options="-parameters" />
       <module name="java-lock-demo" options="-parameters" />
       <module name="parallel-code" options="-parameters" />
@@ -40,6 +42,7 @@
       <module name="spring-boot-actuator" options="-parameters" />
       <module name="spring-boot-admin-server" options="-parameters" />
       <module name="spring-cloud-nacos-provider" options="-parameters" />
+      <module name="spring-loiter-demos" options="-parameters" />
       <module name="spring-session-redis" options="-parameters" />
       <module name="wx-java-spring-boot" options="-parameters" />
     </option>

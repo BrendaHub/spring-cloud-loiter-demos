@@ -24,6 +24,7 @@
         <module>redis-distributed-lock</module>
         <module>java-lambda-demo</module>
         <module>netty-demo</module>
+        <module>parallel-code</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

@@ -24,7 +24,6 @@ public class ThreadDemo {
                 System.out.println("Hello, Interrupted ");
             }
         });
-        thread1.start();
 
 
         Thread thread2 = new Thread(() -> {
@@ -40,6 +39,7 @@ public class ThreadDemo {
             }
         });
         thread2.start();
+        thread1.start();
 
     }
 
